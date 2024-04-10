@@ -1,6 +1,6 @@
 # Diary-of-Luji
 
-This is a project that I built as an assignment of LearningX's Self Learning platform. This project is basically a very personal diary of me. It contains all of my true feelings, my secrets, and my most radical/extreme thoughts. Feel free to leave a comment (this feature soon to be added).
+This is a project that I built as an assignment of LearningX's Self Learning platform. This project is basically a very personal diary of me. It contains all of my true feelings, my secrets, and my most radical/extreme thoughts. Feel free to leave a comment on my posts(this feature soon to be added).
 
 ## Demo
 
