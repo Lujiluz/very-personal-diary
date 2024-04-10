@@ -38,8 +38,9 @@ def saveDiary():
     emotion_file = request.files['emotion']
     current_date = datetime.now().strftime('%Y-%m-%d')
     
-    image_file_name = f'file-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.jpg'
-    emotion_file_name = f'emotion-file-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.jpg'
+    file_name_formatter = datetime.now().strftime('%Y-%m-%d-%H-%M-%S') + '.jpg'
+    image_file_name = 'file-' + file_name_formatter
+    emotion_file_name = 'emotion-file-' + '.jpg'
     image_file.save(f'static/{image_file_name}')
     emotion_file.save(f'static/{emotion_file_name}')
     
